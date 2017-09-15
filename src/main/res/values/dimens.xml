@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_corners">4dp</dimen>
+    <dimen name="text_corners_main">5dp</dimen>
+    <dimen name="text_corners_main_evaluation">3dp</dimen>
+    <dimen name="text_stroke">1dp</dimen>
+    <dimen name="text_stroke_0">0dp</dimen>
+    <dimen name="text_stroke_2">0.5dp</dimen>
+
+    <dimen name="text_height">40dp</dimen>
+    //文本框高度
+    <dimen name="text_margin">16dp</dimen>
+    //文本外编剧
+    <dimen name="text_padding">10dp</dimen>
+    //布局内边距
+    <dimen name="text_left">0dp</dimen>
+    //文字内边距
+
+    <dimen name="image_padding">20dp</dimen>
+    //图片内边距
+    <dimen name="text_image_size">30dp</dimen>
+    //文本图片的大小
+
+    <dimen name="dialog_image_size">90dp</dimen>
+    //对话框的图片大小
+    <dimen name="dialog_size">180dp</dimen>
+    //对话框的大小
+    <dimen name="dialog_iamge_top">20dp</dimen>
+    //对话框图片顶部
+    <dimen name="textSize">18sp</dimen>//文字大小
+    <dimen name="closeEdittextHeight">40dp</dimen>
+    <dimen name="closeEdittextSize">16sp</dimen>
+    <dimen name="mainInfotextSize">12sp</dimen>
+
+    <!-- 这里是李炜的~~~~~~~-->
+    <dimen name="font_middle">9dp</dimen>
+    <dimen name="font_small">8.5dp</dimen>
+    <!--红色点边距的 -->
+    <dimen name="red_right">20dp</dimen>
+
+
+    <!--这里是高鹏的~~~~~~~-->
+    <dimen name="cancel_success">23sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="hide_weight">22dp</dimen>
+    <dimen name="hide_height">15dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">14sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_all">14sp</dimen>
+    <dimen name="text_size_all_small">12sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+
+    <dimen name="right_width_size">10dp</dimen>
+    <dimen name="right_height_size">10dp</dimen>
+
+</resources>
