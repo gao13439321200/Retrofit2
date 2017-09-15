@@ -1,5 +1,7 @@
 # Retrofit2
+
 Retrofit2+MVP+Dagger2空框架
+
 使用的时候需要在项目的build中添加：
 dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
@@ -11,11 +13,8 @@ dependencies {
     }
 
 项目注意事项：
-1、本项目使用的MVP已经配置完成，使用时需自己创建对应的presenter和view包，创建的presenter文件需继承
-BasePresenter，view文件需继承BaseView，并且presenter的构造函数需要添加注解@Inject，直接使用mAppModel
-调用对应的请求方式就可以网络请求了。创建的Activity需继承BaseActivity
-2、dagger2的使用方法：在activity中的onBusiness方法中添加mBaseComponent.inject(this)，声明的presenter
-变量需要添加注解@Inject，方可使用
+1、本项目使用的MVP已经配置完成，使用时需自己创建对应的presenter和view包，创建的presenter文件需继承BasePresenter，view文件需继承BaseView，并且presenter的构造函数需要添加注解@Inject，直接使用mAppModel调用对应的请求方式就可以网络请求了。创建的Activity需继承BaseActivity
+2、dagger2的使用方法：在activity中的onBusiness方法中添加mBaseComponent.inject(this)，声明的presenter变量需要添加注解@Inject，方可使用
 3、Retrofit2的网络请求方式有8种
  （1）retrofit_Post
  （2）retrofit_Get
